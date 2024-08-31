@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const arr=[{
+            name:'alice',
+            age:21,
+            mark:22
+        },
+        {
+            name:'nithu',
+            age:21,
+            mark:35
+        },
+    {
+        name:'bob',
+        age:20,
+        mark:39
+    },
+{
+    name:'sayu',
+    age:5,
+    mark:20
+}];
+        var found=arr.filter((item) => {
+            return item.mark < 30;
+        });
+        console.log(found);
+    </script>
+</body>
+</html>

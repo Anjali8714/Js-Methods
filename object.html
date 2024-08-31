@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var student={
+            firstName:'sam',
+            lastName:'alex',
+            rollNo:20,
+            mark:{
+                maths:65,
+                english:73,
+                science:98,
+                malayalam:69,
+            },
+             getavg: function () {
+                return (this.mark.maths+this.mark.english+this.mark.science+this.mark.malayalam)/4;
+            }
+        }
+        document.write('student info :'+ student.getavg());
+    </script>
+</body>
+</html>
